@@ -17,5 +17,5 @@ person1_dict=dict(zip(person_attributes,person1))
 person_class=Person.Person(name,age,address)
 
 print(person1_dict)
-print(person_class) #<
+print(person_class) #<Person.Person object at 0x000001C955404690> 0x is hexadecimal representation
 print(person_class.name)
