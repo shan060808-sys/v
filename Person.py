@@ -4,6 +4,5 @@ class Person:
         self.age=age
         self.address=address
 
-sara=Person("Sara Khalifa",17,"Dubai International City")
-shanmathi=Person("Shanmathi Vinoth",18,"Alnahda 2 Dubai")        
-        
+    def __str__(self):
+        return f"This is the string representation of the Person-{self.name} age:{self.age} address:{self.address}" 
